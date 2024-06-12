@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Space Mono", monospace;
+}
+
+html {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  place-items: center;
+  background-color: theme("colors.background");
+}
+
+.end-center {
+  place-items: end center;
+}
+
+* {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
