@@ -85,7 +85,7 @@ const About = () => {
         },
       ])}
       <p className="mt-10 italic text-end w-[80%]">
-        ...we hop it will be a good one, <br />
+        ...we hope it will be a good one, <br />
         good one without any fear.
       </p>
     </motion.main>
